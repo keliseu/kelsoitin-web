@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kelsoitin (United States)</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+            font-family: ef;
+            src: url(/fonts/ef/ef.otf);
+        }
+ @font-face {
+            font-family: is;
+            src: url(/fonts//instrument-serif/InstrumentSerif-Regular.woff2);
+        }
+h1 {
+    font-family: 'ef';
+    font-size: 200px;
+    text-align: center;
+}
+h3 {
+    font-family: 'is';
+    font-size: 50px;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: turn 6s linear;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h3:nth-child(1) {
+    opacity: 1;
+}
+h3:nth-child(2) {
+    opacity: 1;
+    animation-delay: 0s;
+}
+h3:nth-child(3) {
+    opacity: 1;
+    animation-delay: 0s;
+    /* After second statement */
+}
+@keyframes turn {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotateY(360deg);
+        opacity: 1;
+    }
+}
+
+</style>
+<body>
+
+<h1>coming<br>soon</h1>
+<h3>kelsoitin</h3>
+
+</body>
+</html> 
